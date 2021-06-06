@@ -4,7 +4,7 @@ import mainPic from "../images/withNigel.jpeg";
 const Main = () => {
   return (
     <div>
-      <h2>Alex Movahedi</h2>
+      <h2>In Memory of Alex Movahedi</h2>
       <img className="main-pic" src={mainPic} />
       <h2 className="dates-of-life"> May 27th, 1994 - April 3rd, 2020</h2>
     </div>
