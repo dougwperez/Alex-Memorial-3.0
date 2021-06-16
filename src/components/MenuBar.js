@@ -33,7 +33,7 @@ const MenuBar = () => {
   return (
     <div>
       <div className="button-container">
-        <button className="frosted-glass">Home</button>
+        {/* <button className="frosted-glass">Home</button> */}
 
         <button className="frosted-glass" onClick={() => setState("about")}>
           About Alex
@@ -43,7 +43,7 @@ const MenuBar = () => {
           className="frosted-glass"
           onClick={() => setState("photoGallery")}
         >
-          Photo Gallery
+          Photos
         </button>
         {state === "photoGallery" ? <PhotoGallery goHome={goHome} /> : null}
         <button className="frosted-glass" onClick={() => setState("why")}>

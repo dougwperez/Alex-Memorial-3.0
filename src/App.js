@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
       <Header className="item" />
-      <Main className="item" />
+
       <MenuBar className="item" />
     </div>
   );
