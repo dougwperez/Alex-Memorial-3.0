@@ -11,6 +11,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
   /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -132,6 +133,7 @@ span {
 .button-container {
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1.5s; /* don't forget to set a duration! */
+  margin-bottom: 15px;
 }
 
 .button-container button {
@@ -194,6 +196,16 @@ code {
   bottom: -15px;
   left: 0px;
   z-index: 10;
+  animation: fadein 1.3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .modal .back-btn {
@@ -247,4 +259,63 @@ code {
   box-shadow: inset 0 0 3000px rgba(39, 147, 230, 3.9);
   filter: blur(5px);
   margin: -20px;
+}
+
+/* //BUTERFLY ANIMATION */
+.butterfly {
+  height: 100px;
+  width: 200px;
+  perspective: 400px;
+  /* animation: fly 32s infinite; */
+  margin: 0 auto;
+  z-index: 10;
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  20% {
+    transform: translate(120%, 160%) rotate(20deg) scale(1.1);
+  }
+  40% {
+    transform: translate(-60%, 260%) rotate(-60deg) scale(1.4);
+  }
+  60% {
+    transform: translate(60%, 220%) rotate(-10deg) scale(1.1);
+  }
+  80% {
+    transform: translate(-120%, 100%) rotate(20deg) scale(0.9);
+  }
+}
+.butterfly div {
+  float: left;
+}
+
+.wing.left {
+  animation: flapLeft 0.3s infinite;
+  transform-origin: 100% 50%;
+}
+
+.wing.right {
+  animation: flapRight 0.3s infinite;
+  background-position: 100% 0;
+  transform-origin: 0 50%;
+}
+
+@keyframes flapLeft {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(60deg);
+  }
+}
+@keyframes flapRight {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(-60deg);
+  }
 }
