@@ -75,7 +75,7 @@ h2 {
 }
 
 span {
-  color: #edb761;
+  color: #e6ad52;
 }
 
 #dates {
@@ -133,7 +133,7 @@ span {
 .button-container {
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1.5s; /* don't forget to set a duration! */
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .button-container button {
@@ -163,6 +163,14 @@ span {
 
 .button-container button:hover {
   color: #edb761;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
 }
 
 code {
@@ -197,6 +205,9 @@ code {
   left: 0px;
   z-index: 10;
   animation: fadein 1.3s;
+
+  max-height: 100%;
+  overflow-y: auto;
 }
 
 @keyframes fadein {
@@ -216,6 +227,10 @@ code {
   position: absolute;
   top: 0;
   right: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  float: right;
 }
 
 .frosted-glass {
@@ -328,6 +343,17 @@ code {
   color: white;
   font-family: "Mate SC", serif;
   font-weight: 800;
+  font-size: 1.1em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
+.miniLogo {
+  text-align: center;
+  margin-bottom: -65px;
+  animation: rotateIn; /* referring directly to the animation's @keyframe declaration */
+  /* animation: bounceInUp; */
+  animation-duration: 7.5s; /* don't forget to set a duration! */
 }
 
 .textH2 {
@@ -335,24 +361,94 @@ code {
   font-weight: 700;
   word-break: keep-all;
   font-family: "Mate SC", serif;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 3em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
 }
 
 p {
-  text-algin: left;
+  text-align: left;
   font-size: 1em;
   font-weight: 500;
   color: black;
+  margin-bottom: 1.5em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4.5s; /* don't forget to set a duration! */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 1350px) {
+  .button-container button {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: 0.9em;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+  .nowrap {
+    font-size: 1em;
+  }
+
+  .textH2 {
+    font-size: 2.3em;
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .button-container button {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 0.8em;
+    margin-left: 9%;
+    margin-right: 9%;
+  }
+
+  .main-logo {
+    width: auto;
+    height: 80px;
+    align-items: center;
+  }
+
+  .button-container button {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    /* float: left; */
+  }
+  /* .nowrap {
+    font-size: 1em;
+  }
+
+  .textH2 {
+    font-size: 2.3em;
+    margin-bottom: 25px;
+  } */
 }
 
 p.justify {
   text-align: justify;
 }
 
-.textH2,
-p {
+/* .textH2 {
   text-align: left;
-}
+  font-size: 3em;
+} */
 
 .wrapper {
   padding: 1em;
@@ -369,7 +465,9 @@ p {
   font-family: "Roboto", sans-serif;
   font-family: "Lato", sans-serif;
 
-  line-height: 1.5em;
+  line-height: 1.8;
+
+  /* word-spacing: 0.02em; */
 
   /* background-color: rgb(220, 220, 220); */
 }

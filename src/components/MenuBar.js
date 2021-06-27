@@ -50,7 +50,7 @@ const MenuBar = () => {
         <button className="frosted-glass" onClick={() => setState("why")}>
           Why
         </button>
-        {state === "why" ? <KnowDrugs goHome={goHome} /> : null}
+        {state === "why" ? <Why goHome={goHome} /> : null}
         <button className="frosted-glass" onClick={() => setState("knowDrugs")}>
           Know Drugs
         </button>
@@ -67,7 +67,14 @@ const MenuBar = () => {
         </button>
         {state === "resources" ? <Resources goHome={goHome} /> : null}
 
-        <button className="frosted-glass">Blog</button>
+        <button className="frosted-glass">
+          <a
+            target="_blank"
+            href="https://dougwperez.github.io/Movahedi-memorial/about/photo-gallery"
+          >
+            Blog
+          </a>
+        </button>
       </div>
     </div>
   );
