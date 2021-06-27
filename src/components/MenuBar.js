@@ -33,6 +33,16 @@ const MenuBar = () => {
 
   return (
     <div>
+      {/* {state === "home" && (
+        <Animated
+          animationIn="fadeInUp"
+          animationOut="fadeOut"
+          isVisible={true}
+          // animationInDuration="5.5"
+        >
+          <div>hello world </div>
+        </Animated>
+      )} */}
       <div className="button-container">
         {/* <button className="frosted-glass">Home</button> */}
 

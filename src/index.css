@@ -96,12 +96,35 @@ span {
 }
 
 .main-pic {
-  border: 3px outset white;
+  border: 2.5px ridge #edb761;
+  box-shadow: 0 0 10px #333;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 35%;
   height: auto;
+  /* margin-top: -15px; */
+  transform: translateY(-15px);
+  margin-bottom: 15px;
+}
+
+.second-pic {
+  border: 2.5px ridge #edb761;
+  box-shadow: 0 0 10px #333;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  /* margin-top: -15px; */
+  /* transform: translateY(-15px); */
+  margin-bottom: 25px;
+}
+
+.video-iframe {
+  margin: 20px;
+  border: 2.5px ridge #edb761;
+  box-shadow: 0 0 10px #333;
 }
 
 .dates-of-life {
@@ -210,6 +233,36 @@ code {
   overflow-y: auto;
 }
 
+.modalNoScroll {
+  background: rgb(167, 199, 220); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(167, 199, 220, 1) 0%,
+    rgba(133, 178, 211, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(167, 199, 220, 1) 0%,
+    rgba(133, 178, 211, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 199, 220, 1) 0%,
+    rgba(133, 178, 211, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: -15px;
+  left: 0px;
+  z-index: 10;
+  animation: fadein 1.3s;
+
+  max-height: 100%;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -231,6 +284,26 @@ code {
   position: sticky;
   top: 0;
   float: right;
+}
+
+.modalNoScroll .back-btn {
+  color: white;
+  font-weight: 800;
+  z-index: 5;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  float: right;
+  margin-right: 15px;
+}
+
+.photo-gallery-iframe {
+  transform: translateY(-6%);
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
 }
 
 .frosted-glass {
@@ -399,7 +472,7 @@ p {
 
   .textH2 {
     font-size: 2.3em;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 }
 
@@ -461,7 +534,7 @@ p.justify {
 .bodyText {
   margin: 0;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "Roboto", sans-serif;
   font-family: "Lato", sans-serif;
 
@@ -475,3 +548,17 @@ p.justify {
 /* html {
   font-size: 100%;
 } */
+
+/* PHOTO GALLERY */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: darkblue;
+  text-align: center;
+}
+ul li {
+  display: block;
+  float: none;
+}

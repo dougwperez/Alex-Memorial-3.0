@@ -2,6 +2,8 @@ import React from "react";
 import { FaTimes } from "react-icons/fa";
 import { Animated } from "react-animated-css";
 import logo from "../../images/Butterfly Icon-6.png";
+import mainPic from "../../images/withNigel.jpeg";
+import secondPic from "../../images/SanJuanKnockOut.jpg";
 
 const AboutAlex = ({ goHome }) => {
   console.log("ABOUT");
@@ -27,6 +29,7 @@ const AboutAlex = ({ goHome }) => {
             <h2 className="textH2">
               All About <span>A</span>lex
             </h2>
+            <img className="main-pic" src={mainPic} />
             <span className="nowrap">Our Fondest Memories.</span>
             <p className="justify">
               Alex had a big and genuine heart, he loved his friends, nature
@@ -40,7 +43,18 @@ const AboutAlex = ({ goHome }) => {
               life back and his shining light will always be with those he
               touched.
             </p>
+
+            <span className="nowrap">
+              "You can tell you are at the right place by the way it feels."
+            </span>
+            <br />
+            <span className="nowrap">- Alex Movahedi </span>
+            <br />
+            <br />
+
+            <img className="second-pic" src={secondPic} />
             <span className="nowrap">He Left Us Too Soon.</span>
+
             <p className="justify">
               His smile, big hugs, his surprises and letters, the way he enjoyed
               exploring new places when traveling, finding the best pastries
@@ -50,6 +64,7 @@ const AboutAlex = ({ goHome }) => {
               for the equipment. Alex's tall 6'4 body, his beautiful eyes, his
               vast human-being-ness.
             </p>
+
             <span className="nowrap">We Will Never Forget.</span>
             <p className="justify">
               Alex' s presence, his charisma, his big and generous heart, his
@@ -57,6 +72,18 @@ const AboutAlex = ({ goHome }) => {
               for who they are, beyond stigma and judgement. His bear hugs, all
               of them.
             </p>
+
+            <iframe
+              className="video-iframe"
+              width="753"
+              height="480"
+              src={`https://www.youtube.com/embed/rs4W08_hedU`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"
+            />
+
             <span className="nowrap">Alex Will Always Be In Our Hears.</span>
             <p className="justify">
               Alex loved life. He believed in equality, fairness and seeing
@@ -68,17 +95,6 @@ const AboutAlex = ({ goHome }) => {
               inspired people and taught them life skills. As his oldest friend
               says, "Everybody needs to have a friend like Alex".
             </p>
-            <span className="nowrap">
-              "You can tell you are at the right place by the way it feels."
-            </span>
-            <br />
-            <span className="nowrap">- Alex Movahedi </span>
-            {/* <span className="nowrap">Körper dehnte.</span>
-            <p className="justify">
-              “YOU CAN TELL WHEN YOU ARE AT THE RIGHT PLACE BY THE WAY IT
-              FEELS.” — ALEX MOVAHEDI
-              <span className="nowrap">Körper dehnte.</span>
-            </p> */}
           </div>
         </div>
       </div>
