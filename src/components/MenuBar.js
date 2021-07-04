@@ -78,10 +78,7 @@ const MenuBar = () => {
         {state === "resources" ? <Resources goHome={goHome} /> : null}
 
         <button className="frosted-glass">
-          <a
-            target="_blank"
-            href="https://dougwperez.github.io/Movahedi-memorial/about/photo-gallery"
-          >
+          <a target="_blank" href="https://shakenawakedotblog.wordpress.com/">
             Blog
           </a>
         </button>

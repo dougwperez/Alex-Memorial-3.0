@@ -186,6 +186,7 @@ span {
 
 .button-container button:hover {
   color: #edb761;
+  cursor: pointer;
 }
 
 a,
