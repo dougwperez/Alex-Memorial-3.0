@@ -497,13 +497,26 @@ p {
     align-items: center;
   }
 
+  .button-container {
+    transform: translateY(-10px);
+  }
+
   .button-container button {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    transform: translateX(-85px);
+
     /* float: left; */
+  }
+
+  #dates {
+    display: none;
+
+    /* font-family: "Mate SC", serif; */
   }
   /* .nowrap {
     font-size: 1em;
