@@ -422,6 +422,26 @@ code {
   animation-duration: 3.5s; /* don't forget to set a duration! */
 }
 
+.whiteQuotes {
+  word-break: keep-all;
+  color: white;
+  font-family: "Mate SC", serif;
+  font-weight: 800;
+  font-size: 1.1em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+.chocolateQuotes {
+  /* white-space: nowrap; */
+  word-break: keep-all;
+  color: #fb8b04b1;
+  font-family: "Mate SC", serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
 .miniLogo {
   text-align: center;
   margin-bottom: -65px;
@@ -438,6 +458,19 @@ code {
   margin-bottom: 40px;
   text-align: center;
   font-size: 3em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+}
+
+.textH2Sub {
+  font-size: 2.5em;
+  font-weight: 700;
+  word-break: keep-all;
+  font-family: "Mate SC", serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+
   animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 5s; /* don't forget to set a duration! */
 }

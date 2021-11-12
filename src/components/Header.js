@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../logos/Alex4HopeLogo-3.png";
+// import Logo from "../logos/Alex4HopeLogo-3NoBackGround.png";
 import { Animated } from "react-animated-css";
 
 const Header = () => {

@@ -25,7 +25,7 @@ const YouArePowerful = ({ goHome }) => {
             </Animated>
 
             <h2 className="textH2">
-              You Are Powerful
+              How and What
               {/* <span className="nowrap">We Remember</span> */}
             </h2>
             <span className="nowrap">Our Fondest Memories.</span>

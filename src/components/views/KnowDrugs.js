@@ -28,6 +28,14 @@ const KnowDrugs = ({ goHome }) => {
               Know Drugs
               {/* <span className="nowrap">We Remember</span> */}
             </h2>
+
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2020-06/Fentanyl-2020_0.pdf"
+            >
+              Fentanyl Drug Fact Sheet
+            </a>
+
             <span className="nowrap">Letter to the Sausalito City Council</span>
             <p>
               Date: October 4, 2020 To: the Sausalito City Council, Office of

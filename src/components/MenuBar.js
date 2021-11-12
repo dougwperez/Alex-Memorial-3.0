@@ -8,6 +8,7 @@ import Why from "./views/Why.js";
 import Resources from "./views/Resources.js";
 import YouArePowerful from "./views/YouArePowerful.js";
 import KnowDrugs from "./views/KnowDrugs.js";
+import Welcome from "./views/Welcome.js";
 import { Animated } from "react-animated-css";
 
 const useStyles = makeStyles((theme) => ({
@@ -44,8 +45,10 @@ const MenuBar = () => {
         </Animated>
       )} */}
       <div className="button-container">
-        {/* <button className="frosted-glass">Home</button> */}
-
+        <button className="frosted-glass" onClick={() => setState("welcome")}>
+          Welcome
+        </button>
+        {state === "welcome" ? <Welcome goHome={goHome} /> : null}
         <button className="frosted-glass" onClick={() => setState("about")}>
           About Alex
         </button>
@@ -69,7 +72,7 @@ const MenuBar = () => {
           className="frosted-glass"
           onClick={() => setState("youArePowerful")}
         >
-          You Are Powerful
+          How and What
         </button>
         {state === "youArePowerful" ? <YouArePowerful goHome={goHome} /> : null}
         <button className="frosted-glass" onClick={() => setState("resources")}>
