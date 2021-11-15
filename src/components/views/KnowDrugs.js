@@ -36,7 +36,43 @@ const KnowDrugs = ({ goHome }) => {
               Fentanyl Drug Fact Sheet
             </a>
 
-            <span className="nowrap">Letter to the Sausalito City Council</span>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2021-09/DEA_Fact_Sheet-Counterfeit_Pills.pdf"
+            >
+              Counterfeit Pills Fact Sheet
+            </a>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2020-06/Benzodiazepenes-2020_1.pdf"
+            >
+              Benzodiazepines Fact Sheet
+            </a>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2020-06/Cocaine-2020_1.pdf"
+            >
+              Cocaine Fact Sheet
+            </a>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2020-06/Methamphetamine-2020_0.pdf"
+            >
+              Methamphetamine Fact Sheet
+            </a>
+            <br />
+            <a
+              target="_blank"
+              href="https://www.dea.gov/sites/default/files/2020-06/Marijuana-Cannabis-2020_0.pdf"
+            >
+              Marijuana/Cannabis Fact Sheet
+            </a>
+
+            {/* <span className="nowrap">Letter to the Sausalito City Council</span>
             <p>
               Date: October 4, 2020 To: the Sausalito City Council, Office of
               the City Clerk, 420 Litho Street, Sausalito, CA 94965
@@ -426,7 +462,7 @@ const KnowDrugs = ({ goHome }) => {
               friend like Alex in his life”. I miss Alex’s 6’4 tall presence,
               his bear hugs and warm smile. He is my shining light from here on.
             </p>
-            <span className="nowrap">-Marion Kregeloh</span>
+            <span className="nowrap">-Marion Kregeloh</span> */}
           </div>
         </div>
       </div>

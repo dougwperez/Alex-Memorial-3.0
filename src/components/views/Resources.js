@@ -28,36 +28,51 @@ const Resources = ({ goHome }) => {
               Resources
               {/* <span className="nowrap">We Remember</span> */}
             </h2>
-            <span className="nowrap">Suicide Hotlines</span>
+            <span className="nowrap">
+              Behavioral Health and Recovery Services Access Lines 24/7
+            </span>
             <p className="justify">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              1-888-818-1115 for information on substance use treatment services
             </p>
-            <span className="nowrap">Drug Overdose Emergencies</span>
+            <span className="nowrap">
+              Behavioral Health Prevention and Outreach in Marin:
+            </span>
             <p className="justify">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Marin County Behavioral Health and Recovery Services Prevention
+              and Outreach Team is pleased to announce the launch of its new
+              website with a focus on “Building Resilience, Connections, and
+              Hope. At the heart of the website is the belief that together, we
+              can build a healthy, safe, and equitable community. The site
+              features: The Prevention and Early Intervention Program, Suicide
+              Prevention, Resources and Support, Community Outreach and
+              Engagement, Events and Trainings. https://bhrsprevention.org/
             </p>
-            <span className="nowrap">Domestic Violence</span>
+            <span className="nowrap"> Peer-Run Warmline</span>
             <p className="justify">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Confidential safe place to talk about anything, including anxiety,
+              depression, fear, financial struggles and substance use issues.
+              415-459-6330 (English: 9am – midnight) 415-457-4026 (Español: 1pm
+              – 6pm)
             </p>
+            <br />
+            <span className="nowrap">
+              National Suicide Prevention Lifeline: (800) 273-8255
+            </span>
+            <br />
+            <br />
+            <span className="nowrap">
+              Linea Nacional de Prevención del Suicidio: (888) 628-9454
+            </span>
+            <br />
+            <br />
+            <span className="whiteQuotes">
+              SAMHSA’s National Helpline: 1-800-662-HELP (4357) free,
+              confidential, 24/7, 365-day-a-year treatment referral and
+              information service (in English and Spanish) for individuals and
+              families facing mental and/or substance use disorders.
+            </span>
+            <br />
+            <br />
             <span className="nowrap">Other Helpful Resources</span>
             <p className="justify">
               <ul>

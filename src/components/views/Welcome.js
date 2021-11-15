@@ -92,90 +92,70 @@ const Welcome = ({ goHome }) => {
             {/* <span className="nowrap">We Will Never Forget.</span> */}
             <img className="second-pic" src={secondPic} />
             <h2 className="textH2Sub">Topics of Exploration</h2>
-            <span className="chocolateQuotes">
-              - Tearing down the walls of stigma: mental and emotional
-              imbalances are a part of being human.
-            </span>
+
+            <ul className="welcomeList">
+              <li className="chocoListItem">
+                -Tearing down the walls of stigma: mental and emotional
+                imbalances are a part of being human.
+              </li>
+              <li className="whiteQuoteItem">
+                -Asking the key question, why? Early trauma and its long-term
+                effects.
+              </li>
+              <li className="chocoListItem">
+                -When our kids struggle, feel lost, and seek substances to
+                escape, we need to look deeper. Much deeper.
+              </li>
+              <li className="whiteQuoteItem">
+                -Understanding brain development and why the undeveloped brain
+                is vulnerable to substance use
+              </li>
+              <li className="chocoListItem">
+                -Raising awareness of today’s risky drugs
+              </li>
+              <li className="whiteQuoteItem">
+                -Fentanyl-Alert: a killer drug invading our communities
+              </li>
+              <li className="chocoListItem">
+                -What teens who use drugs or substances need to know in order to
+                stay safe, and where to get help.
+              </li>
+              <li className="whiteQuoteItem">
+                -Finding creative solutions to addictive behaviors and the
+                normalization of modern-day attachments. How and What?
+              </li>
+              <li className="chocoListItem">
+                -Raising awareness of today’s risky drugs.
+              </li>
+              <li className="whiteQuoteItem">
+                -Impact of digital media/consumerism on emotional and social
+                development
+              </li>
+              <li className="chocoListItem">
+                -Teens, our teachers: exploring multi-generational collaboration
+              </li>
+              <li className="whiteQuoteItem">
+                -Supporting teens who are finding their voice, power, and :
+                Helping teens be seen, heard, belong, and engaged, while
+                becoming part of something bigger than their emotions
+              </li>
+              <li className="chocoListItem">
+                -Peer activism and advocacy: getting involved to become
+                empowered.
+              </li>
+              <li className="whiteQuoteItem">
+                -Learning about ourselves and from each other through ancient
+                and modern-day communal rites and rituals.
+              </li>
+              <li className="chocoListItem">
+                -Movement and art-informed self-expression: become empowered and
+                live authentically while going through the ups and downs of
+                life.
+              </li>
+            </ul>
+
             <br />
-            <span className="whiteQuotes">
-              -Asking the key question, why? Early trauma and its long-term
-              effects.
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              “When our kids struggle, feel lost, and seek substances to escape,
-              we need to look deeper. Much deeper.”
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              Asking the key question, why? Early trauma and its long-term
-              effects.{" "}
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              - Understanding brain development and why the undeveloped brain is
-              vulnerable to substance use
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Addiction redefined: Toss the “rock-bottom” and “tough love”
-              concept
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -Raising awareness of today’s risky drugs
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Fentanyl-Alert: a killer drug invading our communities
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -What teens who use drugs or substances need to know in order to
-              stay safe, and where to get help
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Finding creative solutions to addictive behaviors and the
-              normalization of modern-day attachments. How and What?
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -Raising awareness of today’s risky drugs
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Impact of digital media/consumerism on emotional and social
-              development
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -Teens, our teachers: exploring multi-generational collaboration
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              - Supporting teens who are finding their voice, power, and :
-              Helping teens be seen, heard, belong, and engaged, while becoming
-              part of something bigger than their emotions
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -Raising awareness of today’s risky drugs
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Peer activism and advocacy: getting involved to become empowered
-            </span>
-            <br />
-            <span className="chocolateQuotes">
-              -Learning about ourselves and from each other through ancient and
-              modern-day communal rites and rituals
-            </span>
-            <br />
-            <span className="whiteQuotes">
-              -Movement and art-informed self-expression: become empowered and
-              live authentically while going through the ups and downs of life
-            </span>
+
             <br />
             <br />
             <br />

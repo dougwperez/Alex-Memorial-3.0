@@ -203,24 +203,17 @@ code {
 }
 
 .modal {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7c7dc+0,85b2d3+100;Blue+Grey+3D */
-  background: rgb(167, 199, 220); /* Old browsers */
-  background: -moz-linear-gradient(
-    top,
-    rgba(167, 199, 220, 1) 0%,
-    rgba(133, 178, 211, 1) 100%
-  ); /* FF3.6-15 */
+  background: #2193b0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    top,
-    rgba(167, 199, 220, 1) 0%,
-    rgba(133, 178, 211, 1) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
+    to top,
+    #6d99d0,
+    #648bc4
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    rgba(167, 199, 220, 1) 0%,
-    rgba(133, 178, 211, 1) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+    to top,
+    #6d99d0,
+    #648bc4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   position: absolute;
   top: 0px;
@@ -422,6 +415,12 @@ code {
   animation-duration: 3.5s; /* don't forget to set a duration! */
 }
 
+.welcomeList {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
 .whiteQuotes {
   word-break: keep-all;
   color: white;
@@ -431,10 +430,34 @@ code {
   animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 3.5s; /* don't forget to set a duration! */
 }
+
+.whiteQuoteItem {
+  text-align: justify;
+  word-break: keep-all;
+  color: white;
+  font-family: "Mate SC", serif;
+  font-weight: 800;
+  font-size: 1.1em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+.chocoListItem {
+  /* white-space: nowrap; */
+  text-align: justify;
+  align-content: left;
+  word-break: keep-all;
+  color: #fc9d28fa;
+  font-family: "Mate SC", serif;
+  font-weight: 800;
+  font-size: 1.1em;
+  animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
 .chocolateQuotes {
   /* white-space: nowrap; */
   word-break: keep-all;
-  color: #fb8b04b1;
+  color: #fc9d28fa;
   font-family: "Mate SC", serif;
   font-weight: 800;
   font-size: 1.5em;
